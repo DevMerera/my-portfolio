@@ -1,0 +1,174 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#f4f4f4;
+    color:#333;
+}
+
+/* Navigation */
+
+nav{
+    background:#0d47a1;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 8%;
+    position:sticky;
+    top:0;
+}
+
+.logo{
+    color:white;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin-left:20px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+nav ul li a:hover{
+    color:gold;
+}
+
+/* Header */
+
+header{
+    height:100vh;
+    background:linear-gradient(135deg,#1565c0,#42a5f5);
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:50px;
+    margin-bottom:15px;
+}
+
+.hero p{
+    font-size:22px;
+    height:30px;
+}
+
+button{
+    margin-top:25px;
+    padding:12px 25px;
+    border:none;
+    background:white;
+    color:#1565c0;
+    font-size:16px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:gold;
+}
+
+/* Sections */
+
+section{
+    width:80%;
+    margin:40px auto;
+    background:white;
+    padding:25px;
+    border-radius:8px;
+    box-shadow:0 0 10px rgba(0,0,0,.1);
+    transition:.3s;
+}
+
+section:hover{
+    transform:translateY(-5px);
+}
+
+h2{
+    color:#1565c0;
+    margin-bottom:15px;
+}
+
+/* Skills */
+
+.skill{
+    margin:20px 0;
+}
+
+.bar{
+    background:#ddd;
+    height:25px;
+    border-radius:20px;
+    overflow:hidden;
+}
+
+.bar div{
+    width:0;
+    height:100%;
+    color:white;
+    text-align:center;
+    line-height:25px;
+    transition:2s;
+}
+
+.html{
+    background:#ff5722;
+}
+
+.css{
+    background:#2965f1;
+}
+
+.cpp{
+    background:#8e24aa;
+}
+
+.problem{
+    background:#43a047;
+}
+
+/* Footer */
+
+footer{
+    background:#0d47a1;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+/* Scroll Button */
+
+#topBtn{
+    position:fixed;
+    right:20px;
+    bottom:20px;
+    border:none;
+    background:#1565c0;
+    color:white;
+    padding:12px 15px;
+    border-radius:50%;
+    cursor:pointer;
+    display:none;
+}
+
+#topBtn:hover{
+    background:#0d47a1;
+}
